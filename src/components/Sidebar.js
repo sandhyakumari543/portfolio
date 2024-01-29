@@ -12,7 +12,6 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import StyleSwitch from './StyleSwitch';
 import StyleSwitcher from './StyleSwitcher';
-import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -74,9 +73,9 @@ const Sidebar = () => {
                             </a>
                         </li>
                         <li>
-                            <Link to="#portfolio" className={activeSection === 'portfolio' ? 'active' : ''} onClick={() => handleNavLinkClick('portfolio')}>
+                            <a href="#portfolio" className={activeSection === 'portfolio' ? 'active' : ''} onClick={() => handleNavLinkClick('portfolio')}>
                                 <i><FaBriefcase /></i>Portfolio
-                            </Link>
+                            </a>
                         </li>
                         <li>
                             <a href="#contact" className={activeSection === 'contact' ? 'active' : ''} onClick={() => handleNavLinkClick('contact')}>

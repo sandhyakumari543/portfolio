@@ -30,7 +30,7 @@ body {
   text-decoration: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  color: var(--text-black-900);
+  /* color: var(--text-black-900); */
 }
 
 ::before,
@@ -63,16 +63,6 @@ ul {
   overflow-y: auto;
   overflow-x: hidden;
   transition: all 0.3s ease;
-  /* position: absolute;
-  left: 270px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  z-index: 0;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; */
  
 }
 

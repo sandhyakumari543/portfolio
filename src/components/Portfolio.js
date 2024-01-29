@@ -1,17 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import TicTac from '../ProjectFile/TicTac';
-const Portfolio = () => {
-    const handleNavLinkClick = (section1) => {
-        setTimeout(() => {
-            const sections = document.querySelectorAll('.section');
-            sections.forEach((s) => s.classList.remove('slide-in', 'active'));
 
-            const currentSection = document.getElementById(section1);
-            currentSection.classList.add('slide-in', 'active');
-            currentSection.scrollIntoView({ behavior: 'smooth' });
-        }, 500);
-    };
+const Portfolio = () => {
     return (
         <>
             <div className="container">
@@ -82,16 +71,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="portfolio-item padd-15">
-                        <div className="portfolio-item-inner shadow-dark">
-                            <Link to="/TicTac.js" onClick={() => handleNavLinkClick('tictac')}>
-                                <div className="portfolio-img">
-                                    <img src="image/game.png" alt="" />
-                                </div>
-                            </Link>
-                        </div>
-                    </div> */}
-
+                  
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
