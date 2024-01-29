@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bdcd9eee.css",
-    "main.js": "/portfolio/static/js/main.bb0e43fa.js",
+    "main.css": "/portfolio/static/css/main.1c6f4d43.css",
+    "main.js": "/portfolio/static/js/main.4295e13e.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/portfolio3.png": "/portfolio/static/media/portfolio3.ad99f54d6c75b40ae5bb.png",
+    "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.c249dc119adf0b66ada0.jpg",
+    "static/media/NetFlix.jpg": "/portfolio/static/media/NetFlix.49a46d6d71fefedf02b6.jpg",
+    "static/media/game.png": "/portfolio/static/media/game.73a244356241f4792691.png",
+    "static/media/Sandhya.jpg": "/portfolio/static/media/Sandhya.86e85454d8807218a73e.jpg",
+    "static/media/text.jpg": "/portfolio/static/media/text.acebc88339ea457cb5d3.jpg",
+    "static/media/tech.jpeg": "/portfolio/static/media/tech.9086759cc5dabaca7aab.jpeg",
+    "static/media/todo.png": "/portfolio/static/media/todo.32c963f48f608727b691.png",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.aaec493a6c763a673f4b.jpg",
+    "static/media/health.jpeg": "/portfolio/static/media/health.5a611631c59dfdfda040.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.bdcd9eee.css.map": "/portfolio/static/css/main.bdcd9eee.css.map",
-    "main.bb0e43fa.js.map": "/portfolio/static/js/main.bb0e43fa.js.map",
+    "main.1c6f4d43.css.map": "/portfolio/static/css/main.1c6f4d43.css.map",
+    "main.4295e13e.js.map": "/portfolio/static/js/main.4295e13e.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdcd9eee.css",
-    "static/js/main.bb0e43fa.js"
+    "static/css/main.1c6f4d43.css",
+    "static/js/main.4295e13e.js"
   ]
 }
