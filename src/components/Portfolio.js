@@ -1,5 +1,13 @@
 import React from 'react';
-
+import tic from './Image/game.png';
+import health from './Image/health.jpeg';
+import tech from './Image/tech.jpeg';
+import portfolio from './Image/portfolio4.jpg';
+import portfolio3 from './Image/portfolio3.png';
+import Netflix from './Image/NetFlix.jpg';
+import calculator from './Image/calculator.jpg';
+import text from './Image/text.jpg';
+import todo from './Image/todo.png';
 const Portfolio = () => {
     return (
         <>
@@ -18,7 +26,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/tech.jpeg" alt="" />
+                                <img src={tech} alt="" />
                                 <div className="image-details">
                                     <h3>E-commerce: Techno</h3>
                                     <p>Electronic devices only: watches, iPhone and more.</p>
@@ -31,7 +39,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/portfolio4.jpg" alt="" />
+                                <img src={portfolio} alt="" />
                                 <div className="image-details">
                                     <h3>Landing Page: Sandhya Fitness</h3>
                                     <p>
@@ -46,7 +54,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/portfolio3.png" alt="" />
+                                <img src={portfolio3} alt="" />
                                 <div className="image-details">
                                     <h3>FoodHub - Online Food Delivery</h3>
                                     <p>
@@ -61,7 +69,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/game.png" alt="" />
+                                <img src={tic} alt="" />
                                 <div className="image-details">
                                     <h3>Project Title</h3>
                                     <p>Enjoy the timeless X and O gameplay, and witness the excitement as a player wins with a satisfying animated gif.
@@ -75,7 +83,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/health.jpeg" alt="" />
+                                <img src={health} alt="" />
                                 <div className="image-details">
                                     <h3>Health Blog</h3>
                                     <p>This user-friendly website covers a range of health topics, promoting wellness and informed living through engaging articles and resources</p>
@@ -88,7 +96,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/todo.png" alt="" />
+                                <img src={todo} alt="" />
                                 <div className="image-details">
                                     <h3>Simple Todo List</h3>
                                     <p> An efficient and user-friendly task management app built using React.js, allowing users to easily create, edit, and delete tasks with a straightforward and intuitive interface</p>
@@ -101,7 +109,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/calculator.jpg" alt="" />
+                                <img src={calculator} alt="" />
                                 <div className="image-details">
                                     <h3>Project Title</h3>
                                     <p>this responsive and intuitive calculator allows users to perform various arithmetic operations effortlessly. Experience smooth functionality and an aesthetically pleasing design for efficient calculations.</p>
@@ -114,7 +122,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/text.jpg" alt="" />
+                                <img src={text} alt="" />
                                 <div className="image-details">
                                     <h3>React TextEditor App</h3>
                                     <p>TextEditor app in React with uppercase, lowercase, delete, copy functions, adjustable font size, and a word counter</p>
@@ -127,7 +135,7 @@ const Portfolio = () => {
                     <div className="portfolio-item padd-15">
                         <div className="portfolio-item-inner shadow-dark">
                             <div className="portfolio-img">
-                                <img src="image/NetFlix.jpg" alt="" />
+                                <img src={Netflix} alt="" />
                                 <div className="image-details">
                                     <h3>Netflix Clone</h3>
                                     <p>This project replicating the popular streaming platform's UI, offering a user-friendly interface, dynamic content, and a seamless viewing experience.</p>

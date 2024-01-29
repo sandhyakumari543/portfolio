@@ -12,6 +12,7 @@ import Portfolio from './Portfolio';
 import Contact from './Contact';
 import StyleSwitch from './StyleSwitch';
 import StyleSwitcher from './StyleSwitcher';
+import logo from './Image/Logo.jpg'
 
 const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -48,7 +49,7 @@ const Sidebar = () => {
             <div className="main-container">
                 <div className={`aside ${isSidebarOpen ? 'open' : ''}`}>
                     <div className="logo">
-                        <img src="image/logo.jpg" alt="" 
+                        <img src={logo} alt="" 
                         style={{width:"12vw",height:'12vh', borderRadius:"50%"}} />
                         {/* <a href="#"><span>S</span>qube</a> */}
                     </div>

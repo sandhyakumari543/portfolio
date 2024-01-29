@@ -1,12 +1,13 @@
 import React from 'react';
 import TypingAnimation from './TypingAnimation';
+import sandhya from './Image/Sandhya.jpg'
 
 const HomeSection = () => {
     const downloadResume = () => {
-        const url = process.env.PUBLIC_URL + 'image/SD_Resume.pdf';
+        const url = process.env.PUBLIC_URL + '/image/SD_Resume.pdf';
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'your-resume.pdf';
+        a.download = 'Sandhya-resume.pdf';
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -23,7 +24,7 @@ const HomeSection = () => {
                         <a href="#" className="btn" onClick={downloadResume}>Download CV</a>
                     </div>
                     <div className="home-img padd-15">
-                        <img src="Image/sandhya.jpg" alt="" />
+                        <img src={sandhya} alt="sandhya" />
                     </div>
                 </div>
             </div>
