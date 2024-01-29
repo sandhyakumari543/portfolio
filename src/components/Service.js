@@ -1,10 +1,8 @@
 import React from 'react';
-import { PiDeviceMobileSpeakerFill } from "react-icons/pi";
-import { FaC, FaLaptopCode } from "react-icons/fa6";
+import { FaLaptopCode } from "react-icons/fa6";
 import { IoMdColorPalette } from "react-icons/io";
 import { FaCode } from "react-icons/fa6";
-import { IoSearchSharp } from "react-icons/io5";
-import { ImBullhorn } from "react-icons/im";
+
 
 const Service = () => {
   return (
