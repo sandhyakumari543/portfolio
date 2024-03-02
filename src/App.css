@@ -44,6 +44,7 @@ ul {
 
 .eduptag {
   margin-bottom: 0px;
+  font-size: 13px;
 }
 
 
@@ -720,7 +721,7 @@ h3.my-proffesion {
   align-items: center;
 }
 .image-details p{
-  color: var(--bg-black-50);
+  /* color: var(--bg-black-50); */
   padding: 0 4px;
   text-align: center;
   font-size: 12px;
@@ -920,12 +921,23 @@ h3.my-proffesion {
 
 }
 
-/* .imgcontrol{
-  position: absolute;
-  cursor: pointer;
-  right: 0.75rem;
-  top: 1.125rem;
-  width: 1.75rem;
-  border-width: 2px;
-  border-color: #6b46c1
-} */
+@media screen and (max-width: 550px) {
+  .personal-info,
+  .skills {
+      width: 550px;
+      margin: 0 auto;
+  }
+
+  .personal-info .row,
+  .skills .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .personal-info .info-item,
+  .skills .skill-item {
+      width: calc(100% - 30px); 
+      margin: 15px;
+  }
+}

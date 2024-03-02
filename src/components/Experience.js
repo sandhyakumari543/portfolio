@@ -14,6 +14,13 @@ const experienceData = [
         company: 'CODSOFT',
         description: 'During the web development internship, I successfully created and implemented three impactful projects, including a personalized portfolio, an engaging landing page, and a Calculator website...',
     },
+    {
+        id: 3,
+        date: '19-01-24',
+        title: 'Mern Stack Developer',
+        company: 'Yatri Restro',
+      
+    },
 ];
 
 export default experienceData;
